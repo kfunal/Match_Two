@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4729234548571784695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 932431898214161405}
+  - component: {fileID: 5426434522636642833}
+  m_Layer: 0
+  m_Name: ObjectPooling
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &932431898214161405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4729234548571784695}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5426434522636642833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4729234548571784695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c83687f9e30442ad5a6629265c123, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DontDestroy: 1
+  pools:
+  - <Name>k__BackingField: Blue Element
+    <Size>k__BackingField: 30
+    <type>k__BackingField: 1
+    <Prefab>k__BackingField: {fileID: 8059961723088959497, guid: 27e6019b7dd0650479b5c91ac94fac34, type: 3}
+  - <Name>k__BackingField: Green Element
+    <Size>k__BackingField: 30
+    <type>k__BackingField: 3
+    <Prefab>k__BackingField: {fileID: 4830817538365449198, guid: 588192468ca507247a618aeb38165211, type: 3}
+  - <Name>k__BackingField: Red Element
+    <Size>k__BackingField: 30
+    <type>k__BackingField: 0
+    <Prefab>k__BackingField: {fileID: 8282832163085220445, guid: fc4d7cb89ad847c4ebe8905e1d5b68ad, type: 3}
+  - <Name>k__BackingField: Yellow Element
+    <Size>k__BackingField: 30
+    <type>k__BackingField: 2
+    <Prefab>k__BackingField: {fileID: 2258147323963839602, guid: 4a32f8e6eccce6e488c26710b145a28f, type: 3}
+  - <Name>k__BackingField: Bomb
+    <Size>k__BackingField: 30
+    <type>k__BackingField: 7
+    <Prefab>k__BackingField: {fileID: 9127771411944106373, guid: e3549476817098742964c517c87ad638, type: 3}
+  - <Name>k__BackingField: Disco Ball
+    <Size>k__BackingField: 30
+    <type>k__BackingField: 8
+    <Prefab>k__BackingField: {fileID: 7222467177748602301, guid: bcdf8000bf485464fbcbe840534940b6, type: 3}
+  - <Name>k__BackingField: Horizontal Rocket
+    <Size>k__BackingField: 30
+    <type>k__BackingField: 5
+    <Prefab>k__BackingField: {fileID: 6470098695861814591, guid: 0d3abfddb4a63fb458b6bbb3036e1519, type: 3}
+  - <Name>k__BackingField: Vertical Rocket
+    <Size>k__BackingField: 30
+    <type>k__BackingField: 6
+    <Prefab>k__BackingField: {fileID: 3509139457823595242, guid: 196912a7a076e5746b23e421f16c61d2, type: 3}
+  - <Name>k__BackingField: Disco Ball Line
+    <Size>k__BackingField: 30
+    <type>k__BackingField: 9
+    <Prefab>k__BackingField: {fileID: 6976216696631730988, guid: e7428a3ed8688c44398f0ea595f39fb7, type: 3}
+  - <Name>k__BackingField: WoodBox
+    <Size>k__BackingField: 30
+    <type>k__BackingField: 10
+    <Prefab>k__BackingField: {fileID: 5650158524317639150, guid: a8fb254f5c0cef94899a35adbf7e87b8, type: 3}
+  - <Name>k__BackingField: Gift Box
+    <Size>k__BackingField: 30
+    <type>k__BackingField: 11
+    <Prefab>k__BackingField: {fileID: 4653265482342145668, guid: 494db9226d35eda4685c9785669d6f1a, type: 3}

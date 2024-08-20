@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef573491ae12f7f43b04cc82cf1f0b7b, type: 3}
+  m_Name: BoardParameters
+  m_EditorClassIdentifier: 
+  <MinimumElementCountToMatch>k__BackingField: 2
+  <RocketMatchElementCount>k__BackingField: 4
+  <TNTMatchElementCount>k__BackingField: 6
+  <DiscoBallMatchElementCount>k__BackingField: 8
+  <MoveDuration>k__BackingField: 0.4
+  <MoveEaseAmplitude>k__BackingField: 1.2
+  <MoveEase>k__BackingField: 27
+  <PowerupCreateMoveSpeed>k__BackingField: 0.35
+  <PowerupCreateMoveEase>k__BackingField: 26
+  <LineDuration>k__BackingField: 0.1
+  <DelayBetweenLines>k__BackingField: 0.1
+  <LineEase>k__BackingField: 32
+  <PieceDuration>k__BackingField: 0.35
+  <PieceEase>k__BackingField: 6

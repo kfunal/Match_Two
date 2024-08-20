@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 409808b9b8429604c95b807adfcd566f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spriteRenderer: {instanceID: 0}
+  - destroyParticle: {instanceID: 0}
+  - boardData: {fileID: 11400000, guid: 080741b33e995d6409c02d02906f9744, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
