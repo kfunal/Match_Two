@@ -7,12 +7,16 @@ public class GameUIManager : StateManager
     #region States
     private GameUIManagerStartState startState;
     private GameUIManagerPlayState playState;
+    private GameUIManagerEndState endState;
     #endregion
 
     #region Inspector
 
     #region Props
+
     public GameUIManagerPlayState PlayState => playState;
+    public GameUIManagerEndState EndState => endState;
+
     #endregion
 
     [field: Header("End Condition")]
@@ -35,6 +39,7 @@ public class GameUIManager : StateManager
     {
         startState = new GameUIManagerStartState(this);
         playState = new GameUIManagerPlayState(this);
+        endState = new GameUIManagerEndState(this);
     }
 
     public void UpdateMoveCountText(int _newAmount)

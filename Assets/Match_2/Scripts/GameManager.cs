@@ -171,6 +171,8 @@ public class GameManager : MonoBehaviour
     {
         gameFinished = true;
         playerManager.CanPlay = false;
+        uiManager.ChangeState(uiManager.EndState);
+        playerManager.ChangeState(playerManager.EndState);
     }
 
     private void ControlEndConditions(int _amount, ElementType _elementType)

@@ -11,9 +11,10 @@ namespace Player.Manager
         #region States
         private PMStartState startState;
         private PMPlayState playState;
+        private PMEndState endState;
 
         public PMPlayState PlayState => playState;
-
+        public PMEndState EndState => endState;
         #endregion
 
         #region Inspector
@@ -43,6 +44,7 @@ namespace Player.Manager
         {
             startState = new PMStartState(this);
             playState = new PMPlayState(this);
+            endState = new PMEndState(this);
         }
 
         public override StateBase InitState()
