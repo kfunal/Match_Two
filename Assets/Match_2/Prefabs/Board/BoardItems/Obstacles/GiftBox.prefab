@@ -433,7 +433,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.2
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -897,7 +897,7 @@ ParticleSystem:
     sphericalDirectionAmount: 1
     randomPositionAmount: 1
     radius:
-      value: 2
+      value: 1
       mode: 0
       spread: 0
       speed:
@@ -1572,8 +1572,8 @@ ParticleSystem:
         m_NumAlphaKeys: 2
   UVModule:
     serializedVersion: 2
-    enabled: 0
-    mode: 0
+    enabled: 1
+    mode: 1
     timeMode: 0
     fps: 30
     frameOverTime:
@@ -1687,11 +1687,11 @@ ParticleSystem:
     tilesY: 1
     animationType: 0
     rowIndex: 0
-    cycles: 1
+    cycles: 0.0001
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 0}
+    - sprite: {fileID: 579229642, guid: 5ae8f6209a3bc6c4bb6dd84ed9c131ee, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -5033,7 +5033,7 @@ ParticleSystemRenderer:
   m_MeshWeighting1: 1
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
-  m_MaskInteraction: 0
+  m_MaskInteraction: 1
 --- !u!114 &1682961663163873738
 MonoBehaviour:
   m_ObjectHideFlags: 0
