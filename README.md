@@ -14,7 +14,7 @@ This Project Includes :
 
 -> Cinemachine for automatic camera adjustment based on the game area
 
--> Move Count and End Conditions sistem to complete levels.
+-> Move Count and End Conditions system to complete levels.
 
 -> Element, Powerup, Destroy Particles
 
