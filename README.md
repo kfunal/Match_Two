@@ -16,6 +16,8 @@ This Project Includes :
 
 -> Move Count and End Conditions sistem to complete levels.
 
+-> Element, Powerup, Destroy Particles
+
 -> Object Pooling
 
 -> Sounds
