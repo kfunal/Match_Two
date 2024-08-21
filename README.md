@@ -1,3 +1,5 @@
+Please change project platform android or ios. This project made for portrait mobile devices and tablets.
+
 This Project Includes :
 
 -> Element Pops
